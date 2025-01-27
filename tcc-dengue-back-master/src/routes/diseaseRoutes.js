@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const diseaseController_1 = require("../controllers/diseaseController");
+const router = (0, express_1.Router)();
+router.get("/Dengue", diseaseController_1.ChartDataController.getAllDengue);
+router.get("/Dengue:id", diseaseController_1.ChartDataController.getByIdDengue);
+router.get("/Zika", diseaseController_1.ChartDataController.getAllZika);
+router.get("/Zika:id", diseaseController_1.ChartDataController.getByIdZika);
+router.get("/Chikun", diseaseController_1.ChartDataController.getAllChikun);
+router.get("/Chikun:id", diseaseController_1.ChartDataController.getByIdChikun);
+router.get("/Dados", diseaseController_1.ChartDataController.getAllDados);
+router.get("/Dados:id", diseaseController_1.ChartDataController.getByIdDados);
+exports.default = router;
