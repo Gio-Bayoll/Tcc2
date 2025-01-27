@@ -9,11 +9,13 @@ import Footer from "./components/Footer";
 
 
 const participants = [
-  "Participante 1",
-  "Participante 2",
-  "Participante 3",
-  "Participante 4",
-  "Participante 5",
+  "Giovanni Bayoll Rofino",
+  "Marcio Nasser",
+  "Leticia Porto",
+  "Ingrid Pereira",
+  "Gustavo Paschoal",
+  "Gustavo Macedo",
+  "Kawe Chaves",
 ];
 
 
